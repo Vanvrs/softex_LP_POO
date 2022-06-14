@@ -1,0 +1,191 @@
+1 Elabore um algoritmo que possa descobrir, através de perguntas e respostas, qual meio de transporte o usuário está pensando.
+2 O usuário deverá escolher uma das seguintes opções:
+3
+4 - Trator
+5 - Moto
+6 - Bicicleta
+7 - Trem
+8 - Carro
+9 - Caminhão
+10 - Ônibus
+11 - Paraquedas
+12 - Balão
+13 - Avião
+14 - Helicóptero
+15 - Submarino
+16 - Barco
+17 - Navio
+18 - Lancha
+19 
+20 Para chegar ao resultado, só devem ser usadas perguntas que retornem "Sim" ou "Não".
+21 
+22 Exemplo:
+23 É terrestre? Sim.
+24 Cabe apenas uma pessoa? Sim.
+25 É pesado? Não.
+26 Tem pedal? Sim.
+27 Então, o transporte escolhido foi a bicicleta.
+28 
+29 Para chegar ao resultado de cada uma das opções, use o modelo ilustrado na imagem em anexo. 
+30 
+31 Realize essa atividade no WORD ou no Bloco de Notas, suba esse arquivo para algum repositório e compartilhe o link no campo ao lado para que outros desenvolvedores possam analisá-lo.
+32 
+33 RESPOSTA:
+34 
+35      Var
+36	Terrestre = "";
+37	Aquatico = "";
+38	Aereo = "";
+39      Submerso = "";
+40	UmaPessoa = "";
+41	DuasPessoas = "";
+42	Pesado = "";
+43	Pedal = "";
+44	TransporteColetivo = "";
+45      DuasRodas = "";
+46 	QuatroRodas = "";
+47	Trilhos = "";
+48	AtividadeEsportiva = "";
+49      CincoPessoas = "";
+50	DispositivoSegurança = "";
+51      ArQuente = "";
+52      Helice = "";
+53 Começo
+54	Escreva("Digite Sim ou Não para as perguntas a seguir: ");
+55	Escreva("O veículo é terrestre?");
+56	Leia(Terrestre);
+57
+58	Escreva("O veículo é aquático?");
+59	Leia(Aquatico);
+60	
+61	Escreva("O veículo é Aéreo?");
+62	Leia(Aereo);
+63
+64      Escreva("O veículo é Submerso?");
+65	Leia(Submerso);
+66
+67	Escreva("O veículo comporta uma pessoa?");
+68	Leia(UmaPessoa);
+69
+70	Escreva("O veículo comporta duas pessoas?");
+71	Leia(DuasPessoas);
+72
+73	Escreva("O veículo é Pesado?");
+74	Leia(Pesado);
+75
+76	Escreva("O veículo tem pedal?");
+77	Leia(Pedal);
+78
+79	Escreva("O veículo é para transporte coletivo?");
+80	Leia(TransporteColetivo);
+81
+82	Escreva("O veículo possui 2 rodas?");
+83	Leia(DuasRodas);
+84      
+85      Escreva("O veículo possui 4 rodas?");
+86	Leia(QuatroRodas);
+87      
+88      Escreva("O veículo anda sobre trilhos?");
+86	Leia(Trilhos);
+87
+88	Escreva("O veículo é utilizado para atividade esportiva?");
+89	Leia(AtividadeEsportiva);
+90	
+91	Escreva("O veículo se locomove com Ar quente?");
+92	Leia(ArQuente);
+93
+94	Escreva("O veículo tem Helice?");
+95      Leia(Helice);
+96
+97	Se(Pedal = "Sim")
+98      Entao
+99      Escreva("o veículo é uma bicicleta");
+100
+101     SeNao
+102	Se(Terrestre = "Sim" e DuasPessoas = "Sim")
+103        Entao
+104	Escreva("o veículo é uma moto");
+105
+106	SeNao
+107	Se(Terrestre = "Sim" e Pesado = "Sim" e QuatroRodas = "Sim")
+108     Entao
+109	Escreva("o veículo é um caminhão");
+110	
+111     SeNao
+112	Se(Terrestre = "Sim" e CincoPessoas = "Sim" e Pesado = "Não")
+113     Entao
+114	Escreva ("Então o veículo é um carro");
+115	
+116     SeNao
+117	Se(Trilhos = "Sim")
+118     Entao
+119	Escreva("o veículo é um trem");
+120
+121	SeNao
+122	Se(TransporteColetivo = "Sim" e Aereo = "Sim");
+123     Entao
+124	Escreva("o veículo é um Avião");
+125       
+126     SeNao
+127	Se(TransporteColetivo = "Sim" e Aereo = "Não");
+128     Entao
+129	Escreva("o veículo é um ônibus");
+130
+131	SeNao
+132	Se(Aereo = "Sim" e DispositivoSeguranca = "Sim");
+133     Entao
+134	Escreva("o veículo é um paraquedas");
+135
+136	SeNao
+137	Se(Aereo = "Sim" ArQuente = "Não")
+138     Entao
+139	Escreva ("o veículo é um Helicoptero");
+140	
+141     SeNao
+142	Se(Aereo = "Sim" ArQuente = "Sim")
+143     Entao
+144	Escreva ("o veículo é um Balão");
+145
+146     SeNao
+147	Se(Aereo = "Sim" e Helice = "Sim")
+148     Entao
+149	Escreva("o veículo é um Helice");
+150
+151	SeNao
+152	Se(Aquatico = "Sim" e Pesado = "Sim" e Submerso = "Sim")
+153     Entao
+154	Escreva("o veículo é um submarino");
+155
+156	SeNao
+157	Se(Aquatico = "Sim" e Pesado = "Sim" e AtividadeEsportiva = "Sim" e submerso = "Não");
+158     Entao
+159	Escreva("o veículo é um barco");
+160	
+161     SeNao
+162	Se(Aquatico = "Sim" e Pesado = "Sim" e Submerso = "Não" e AtividadeEsportiva = "Não")
+163     Entao
+164	Escreva("o veículo é um navio");
+165	
+166     SeNao
+167	Se(Aquatico = "Sim" e AtividadeEsportiva = "Sim" e Submerso = "Não")
+168     Entao
+169    Escreva("o veículo é uma Lancha");
+170	
+171
+172     FimSe
+173	FimSe
+174	FimSe
+175	FimSe
+176	FimSe
+177	FimSe
+178	FimSe
+179	FimSe
+180	FimSe
+181	FimSe
+182	FimSe
+183	FimSe
+184	FimSe
+185	FimSe
+186	FimSe
+187     FimSe
+188     FimSe
