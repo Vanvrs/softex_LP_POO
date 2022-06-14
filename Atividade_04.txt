@@ -1,0 +1,60 @@
+1 Elabore um algoritmo que representa um cadastro. Ele deve ler os seguintes dados fornecidos pelo usuário:
+2
+3 - Nome
+4 - Endereço
+5 - Cidade
+6 - CPF
+7 - RG
+8 - Idade
+9 - Nome do pai
+10 - Nome da mãe
+11 - Peso
+12 - Renda bruta
+13 
+14 Apresente as informações solicitadas no final do cadastro.
+15
+16 Início ()
+17 {
+18     string Nome = "";
+19     string Endereço = "";
+20     string Cidade = "";
+21     int CPF =;
+22     int RG = ;
+23     int idade =;
+24     string NomePai = "";
+25     string NomeMae = "";
+26     real Altura =;
+27     real RendaBruta =;
+28
+29     Escreva ("Nome: ");
+30     Leia (Nome);
+31
+32     Escreva ("Endereço: ");
+33     Leia (Endereço);
+34
+35     Escreva ("Cidade: ");
+36     Leia (Cidade);
+37
+38     Escreva ("CPF: ");
+39     Leia (CPF);
+40
+41     Escreva ("RG: ");
+42     Leia (RG);
+43
+44     Escreva ("Idade: ");
+45     Leia (Idade);
+46
+47     Escreva ("NomePai: ");
+48     Leia (NomePai);
+49
+50     Escreva ("NomeMae: ");
+51     Leia (NomeMae);
+52
+53     Escreva ("Peso: ");
+54     Leia (Peso);
+55
+56     Escreva ("RendaBruta: ");
+57     Leia (RendaBruta);
+58
+59
+60 }
