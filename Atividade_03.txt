@@ -1,0 +1,23 @@
+- Nome: José Almeida da Silva
+- CPF: 12345678900
+- RG: 9517530
+- Altura: 1,78
+- Endereço: Rua A, 380 – Centro – Recife/PE
+
+No algoritmo, descreva como será:
+1. A proposta das variáveis;
+2. Elaborada a declaração das variáveis;
+3. Utilizado o comando de atribuição.
+
+Realize essa atividade no WORD ou no Bloco de Notas, suba esse arquivo para algum repositório e compartilhe o link no 
+campo ao lado para que outros desenvolvedores possam analisá-lo.
+
+\\As variáveis string receberão valores como letras e/ou letras e números.São representados entre "aspas"
+\\As variáveis que contenham números inteiros, sem casas decimais serão representados por int
+\\As variáveis reais serão utilizadas para a representação decimal, por exemplo, altura ou peso se houver.
+
+     string Nome = "José Almeida da Silva";
+     int CPF = 12345678900;
+     int RG = 9517530;
+     real Altura: 1,78;
+     string Endereço = "Rua A, 380 – Centro – Recife/PE";
