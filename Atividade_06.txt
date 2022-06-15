@@ -1,0 +1,86 @@
+1 Após uma prova de vestibular, uma escola quer identificar quantos dos seus alunos 
+2 foram aprovados em cada turma de formandos. Ela quer saber qual aluno teve a maior nota e 
+3 de qual turma ele é. Nessa escola, há quatro turmas (A, B, C e D) com vinte e cinco alunos cada.
+4
+5 Elabore um algoritmo que solicite o nome e a nota do vestibular aos alunos. Depois, informe quantos
+6 deles foram aprovados, de que turma são, qual a maior nota em cada turma e qual aluno teve a maior nota de todas.
+7
+8 Para que o aluno seja aprovado no vestibular, ele deverá obter nota maior ou igual a 7.
+9 
+10 ATENÇÃO: As notas por turma não podem se repetir.
+11
+12 Realize essa atividade no WORD ou no Bloco de Notas, suba esse arquivo para algum repositório e compartilhe o link no campo ao
+13 lado para que outros desenvolvedores possam analisá-lo.
+14
+15
+16
+17
+18 Resposta
+19
+20
+21
+22 int i = 25;
+23 int AlunosAprovadosA = 0;
+24 int AlunosAprovadosB = 0;
+25 int AlunosAprovadosC = 0;
+26 int AlunosAprovadosD = 0;
+27 TurmaAluno = "";
+28 NomeAluno = "";
+29 real NotaAluno;
+30 real NotaTurma;
+31 real MaiorNota;
+32
+33
+34
+35
+36	Escreva ("Informe a turma do aluno: 1 - A, 2 - B, 3 - C ou 4 - D");
+37	Leia(TurmaAluno);
+38	Escolha(TurmaAluno);
+39	
+40     CASO 1:	TurmaAluno = "A";
+41       	Escreva("Nome do aluno?");
+42		Leia(NomeAluno);
+43              Escreva("Nota do aluno?");
+44		Leia(NotaAluno);
+45			Se(NotaAluno >= 7)
+46                      Entao
+47			AlunosAprovadosA = AlunosAprovadosA + 1;
+48			FimSe
+49		Enquanto(TurmaAluno = "A" < i);
+50		i = i + 1;
+51
+52	CASO 2:	TurmaAluno = "B";
+53		Escreva("Nome do aluno?");
+54		Leia(NomeAluno);
+55		Escreva("Nota do aluno?");
+56		Leia(NotaAluno);
+57			Se(NotaAluno >= 7)
+58                        Entao
+59                        AlunosAprovadosB = AlunosAprovadosB + 1;
+60			FimSe
+61		Enquanto(TurmaAluno = "B" < i);
+62		i = i + 1;
+63
+64	CASO 3:	TurmaAluno = "C";
+65		Escreva("Qual o nome do aluno?");
+66		Leia(NomeAluno);
+67		Escreva("Nota do aluno?");
+68		Leia(NotaAluno);
+69			Se(NotaAluno >= 7)
+70                        Entao
+71			AlunosAprovadosC = AlunosAprovadosC + 1;
+72			FimSe
+73		Enquanto(TurmaAluno = "C" < i);
+74		i = i + 1;
+75
+76	CASO 4:	TurmaAluno = "D";
+77		Escreva("Nome do aluno?");
+78		Leia(NomeAluno);
+79		Escreva("Nota do aluno?");
+79		Leia(NotaAluno);
+80			Se(NotaAluno >= 7)
+81                      Entao
+82			AlunosAprovadosD = AlunosAprovadosD + 1;
+83			FimSe
+84		Enquanto(TurmaAluno = "D" < i);
+85		i = i + 1;
