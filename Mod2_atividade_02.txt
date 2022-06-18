@@ -1,0 +1,29 @@
+1 Faça um algoritmo de ordenação utilizando o método insertion sort.
+2 Crie um método que execute as seguintes operações:
+3
+4 - Tamanho do vetor: 30;
+5 - Utilize números ímpares;
+6 - Opere em ordem crescente.
+7
+8 Realize essa atividade no WORD ou no Bloco de Notas, suba esse arquivo para algum repositório e compartilhe o link no 
+9 campo ao lado para que outros desenvolvedores possam analisá-lo.
+10
+11
+12 Resposta:
+13 def insertSort(array);
+14 
+15 for step in range, len(array);
+16 key = array[step]
+17
+18 #comparar a chave com cada elemento à esquerda..
+19 #até que um elemento menor do que seja encontrado
+20 #Para ordem decrecente, altere key<array[j] para key>array[j]
+21 while j >= 0 and = array[j];
+22 array[j + 1] = array [j]
+23 j= j - 1
+24 
+25 array [j + 1] = key
+26 data = [5, 17, 27, 11, 59, 57, 21, 9, 15, 25, 13, 19, 19, 23, 31, 35, 39, 33, 45, 53, 37, 41, 29, 49, 43, 1, 3, 50, 25, 7]
+27 insertionSort(data)
+28 print("Array em ordem crescente:")
+29 print(data)
