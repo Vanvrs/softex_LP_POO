@@ -1,0 +1,59 @@
+
+1 Faça um algoritmo de ordenação utilizando o método bubble sort na linguagem C.
+2 Para isso, você deve criar um método em que o tamanho do vetor seja dez e deve estar em ordem crescente.
+3
+4 O vetor deverá:
+5 - comparar seus elementos dois a dois adjacentes;
+6 - se os elementos não estiverem em ordem, então ordenar;
+7 - senão, avançar para o próximo par;
+8 - repetir a operação até que nenhuma troca possa ser feita no vetor inteiro.
+9 
+10 Realize essa atividade no WORD ou no Bloco de Notas, suba esse arquivo para algum repositório e compartilhe o link no campo ao lado para que outros desenvolvedores
+11 possam analisá-lo.
+12
+13
+14
+15 Resposta:
+16
+17
+18 #include <stdio.h>
+19 #include <stdlib.h>
+20 #include <locale.h>
+21 #define TAM 10
+22
+23 int main ()
+24
+25 {
+26
+27 setlocale (LC_ALL,"");
+28
+29 int numeros {TAM};
+30 int i, aux, contador;
+31
+32 printf("Entre com dez números para preencher o array, e pressione enter após digitar cada um:\n");
+33 for (i = 0; i < TAM; i++) {
+34	scanf("d", &numeros[i]);
+35 }
+36 printf("Ordem atual dos itens no array:\n");
+37 for (i=0; i <TAM; i++ ) {
+38	printf("4d", numeros [i]);
+39	}
+40
+41 //Algoritimo de ordenação bubblesort:
+42 for(contador =; contador <TAM; contador++) {
+43	for(i = 0; i <TAM - 1; i++) {
+44		if (numeros [i]> numeros [i + 1]) {
+45			aux = numero [i];
+46			numeros[i] = numeros [i + 1];
+47			numeros [i + 1] = aux;
+48			
+49		}
+50	}
+51 }
+52 printf("\nElementos do array em ordem crescente:\n");
+53 for (i = 0; i <TAM; i++) {
+54	printf("4d", numeros [i]);
+55	}
+56 printf("\n");
+57 return 0;
+58 }
