@@ -1,0 +1,9 @@
+Pesquise sobre os grafos e apresente dois exemplos de como são utilizados no contexto tecnológico.
+
+Realize essa atividade no WORD ou no Bloco de Notas, suba esse arquivo para algum repositório e 
+compartilhe o link no campo ao lado para que outros desenvolvedores possam analisá-lo. 
+
+Resposta:
+
+GPS 
+Jogos
