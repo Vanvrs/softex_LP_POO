@@ -1,0 +1,18 @@
+Descrição - Padrão de projeto Decorator (Estrutural)
+
+Permitam-me apresentar para vocês um pequeno cenário para contextualizar 
+melhor o motivo e as situações nas quais devemos usar o padrão Decorator.
+Digamos que você tenha um café e, como qualquer iniciante, você começa com
+ apenas dois tipos de café normal, o da casa e o escuro torrado. 
+Em seu sistema de cobrança, havia uma classe para cada um dos tipos
+ de café, os quais herdam da classe abstrata bebida. 
+Com a quantidade de clientes surgindo e com gostos diferenciados é necessário 
+criar um sistema que possibilite acrescentar mais opções de café para os clientes. 
+E é preciso adicionar todas as opções de café no sistema e, consequentemente, os clientes tenham mais opções.
+Com tantas opções se torna penoso e cansativos criar tantas subclasses para toda e qualquer 
+combinação dos adicionais com os novos tipos de café também. Sem falar no tamanho final do sistema.
+Contrata-se uma equipe de TI, que saiba de verdade o que está fazendo, e eles indicam usar o padrão Decorator para resolução do problema.
+O padrão de projetos Decorator está na categoria estrutural de uma classe, seja por herança, composição ou ambos.
+
+ O objetivo desse padrão é modificar a funcionalidade de um objeto em tempo de execução.
+ Esse é um dos vários padrões de projetos que usam classes abstratas e interfaces com composição para obter o resultado desejado.
