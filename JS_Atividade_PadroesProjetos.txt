@@ -1,0 +1,93 @@
+ATIVIDADE_PADROES DE PROJETOS
+
+1) Pesquise sobre padrões de projeto
+2) escolha um para apresentar e descrever o seu funcionamento. 
+3) Além disso, explique quais as vantagens e desvantagens 
+comparados a outros e mostre suas referências.
+
+RESPOSTAS
+1) Padrões de projeto são soluções reutilizáveis ​​para 
+problemas comuns em projetos de software. Eles são 
+interessantes e fascinantes para explorar em qualquer 
+linguagem de programação.
+
+Uma razão para isso é que eles nos ajudam a construir a
+experiência combinada de muitos desenvolvedores que 
+vieram antes de nós e a garantir que estruturemos nosso 
+código de maneira otimizada, atendendo às necessidades 
+dos problemas que estamos tentando resolver.
+
+Inclusive, este livro é citado várias vezes neste artigo
+ e é uma excelente fonte de conteúdo para você se 
+aprofundar em design patterns para JavaScript.
+
+Padrões de projeto GoF
+De forma geral no mundo de desenvolvimento de software,
+o livro “Padrões de Projeto: soluções reutilizáveis de software orientado a objetos” 
+de 1994 se destaca como uma grande referência sobre padrões de projetos. 
+Os escritores deste livro ficaram conhecidos como “Gang of Four”
+(Erich Gamma, Richard Helm, Ralph Johnson e John Vlissides).
+
+O livro define 23 padrões em 3 categorias diferentes, popularmente conhecido como “Padrões GoF”.
+Segue abaixo a lista com os links para a teoria e implementação de cada padrão aplicado na linguagem JavaScript.
+
+1)Padrões de criação
+Abstract Factory
+Builder
+Factory Method
+Prototype
+Singleton
+
+2)Padrões estruturais
+Adapter
+Bridge
+Composite
+Decorator
+Facade
+Flyweight
+Proxy
+
+3)Padrões comportamentais
+Chain of Responsibility
+Command
+Interpreter
+Iterator
+Mediator
+Memento
+Observer
+State
+Strategy
+Template Method
+Visitor
+É importante avaliar o escopo do seu projeto e as habilidades técnicas 
+da sua equipe antes de utilizar um ou vários padrões de projeto. 
+Os padrões de projeto são necessários para resolver problemas, 
+mas podem gerar problemas (como elevar muito o nível de dificuldade de seu projeto) 
+quando usado de forma demasiada.
+
+
+2) Descrição - Padrão de projeto Decorator (Estrutural)
+
+Permitam-me apresentar para vocês um pequeno cenário para contextualizar 
+melhor o motivo e as situações nas quais devemos usar o padrão Decorator.
+Digamos que você tenha um café e, como qualquer iniciante, você começa com
+ apenas dois tipos de café normal, o da casa e o escuro torrado. 
+Em seu sistema de cobrança, havia uma classe para cada um dos tipos
+ de café, os quais herdam da classe abstrata bebida. 
+Com a quantidade de clientes surgindo e com gostos diferenciados é necessário 
+criar um sistema que possibilite acrescentar mais opções de café para os clientes. 
+E é preciso adicionar todas as opções de café no sistema e, consequentemente, os clientes tenham mais opções.
+Com tantas opções se torna penoso e cansativos criar tantas subclasses para toda e qualquer 
+combinação dos adicionais com os novos tipos de café também. Sem falar no tamanho final do sistema.
+Contrata-se uma equipe de TI, que saiba de verdade o que está fazendo, e eles indicam usar o padrão Decorator para resolução do problema.
+O padrão de projetos Decorator está na categoria estrutural de uma classe, seja por herança, composição ou ambos.
+
+ O objetivo desse padrão é modificar a funcionalidade de um objeto em tempo de execução.
+ Esse é um dos vários padrões de projetos que usam classes abstratas e interfaces com composição para obter o resultado desejado.
+
+3) De modo geral, as três categorias pre-definidas são complementares e podem ser utilizadas em mais de uma em um determinado 
+projeto, cada qual com suas especiicações.
+Algumas referências: 
+Learning JavaScript Design Patterns - Erich Gamma, Richard Helm, Ralph Johnson e John Vlissides.
+Links: https://medium.com/@washingtonbr/padr%C3%B5es-de-projeto-e-boas-pr%C3%A1ticas-em-javascript-d3b49c5c61a5
+https://imasters.com.br/devsecops/design-patterns-com-javascript-typescript
