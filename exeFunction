@@ -1,0 +1,44 @@
+    //uma função tradicional com a palavra reservada “Function” e sem nenhum parâmetro;
+    //uma função tradicional com parâmetros e um retorno de valor;
+    //uma arrow function com parâmetros e que retorne um valor.
+    // Crie um programa que utilize essas três funções de forma lógica, 
+    // por exemplo: um programa de calculadora.
+
+    //funçao sem parametro 
+       //function num () {
+        //return  
+       //}
+    //funçao com parametro 
+       //function num(num1, num2) {
+      //return num1 + num2 
+      //}
+    
+    //arrow function
+   //const num = (num1, num2) => num1 + num2
+
+   //const func = function() {
+    //console.log(this)
+   //}
+   //const arrowfunc = () => console.log(this)
+    //func()
+    //arrowfunc()
+   
+    //Program que informará se um número é par ou impar
+    
+    function parImpar(n) {
+      if(n % 2 == 0){
+        return 'Par'
+      }
+      else {
+        return 'Impar'
+      }
+    }
+    let res = parImpar(7)
+    console.log(res)
+
+      
+
+   
+
+
+
