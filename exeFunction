@@ -1,0 +1,13 @@
+    //uma função tradicional com a palavra reservada “Function” e sem nenhum parâmetro;
+    //uma função tradicional com parâmetros e um retorno de valor;
+    //uma arrow function com parâmetros e que retorne um valor.
+      
+    //Criando uma função no JavaScript sem parametros
+        function calculaImposto(){
+      }
+
+    //Criando uma função no JavaScript com parametros
+       function calculaImposto(valor, icms){
+      }
+    //Chama a função passando os parametros 10.00 como valor e 0.32 como icms.
+       calculaImposto(10.00, 0.32)
