@@ -12,7 +12,9 @@
    <title>Calcular nota</title>
    Primeira nota <input id="nota1" type="number"> <br />
    Segunda  nota <input id="nota2" type="number"> <br />
-   Segunda  nota <input id="nota3" type="number"> <br />
+   Terceira  nota <input id="nota3" type="number"> <br />
+   
+   
    <button onclick="media()">Calcular Media</button>
 
    <script type="text/javascript">
@@ -25,7 +27,7 @@
      var media = (nota1 + nota2 + nota3) / 3 ;
 
      if(media >= 7)
-     if(media==10)
+     
         alert("Parabens, aprovado! Media "+media);
      else
         alert("Reprovado!")
